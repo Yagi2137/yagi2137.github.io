@@ -6,11 +6,11 @@
 #85858e
 */
 .colour_holder{
-    background-color: #202028;
-    background-color: #ffffff;
-    background-color: #ff9378;
-    background-color: #0d0d0f;
-    background-color: #85858e;
+    background-color: rgb(32, 32, 40);
+    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 149, 122);
+    background-color: rgb(12, 12, 14);
+    background-color: rgb(133, 133, 142);
 }
 html, body {
 
@@ -62,7 +62,7 @@ body{
     border-radius: 100%;
     box-shadow: 0px 0px 6px 0px #ffffff;
     cursor: pointer;
-    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+    text-shadow: 0px 0px 15px rgb(12, 12, 14, 0.3);
 }
 .startMenuBack{
     -webkit-clip-path: polygon(50% 54%, 44% 85%, 50% 53%, 81% 57%, 50% 52%, 79% 81%, 51% 52%, 71% 13%, 51% 51%, 47% 17%, 51% 50%, 15% 24%, 49% 50%, 97% 33%, 49% 51%, 13% 57%, 50% 52%, 18% 85%, 50% 53%, 66% 86%);
