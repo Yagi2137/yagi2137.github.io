@@ -29,11 +29,10 @@ html{
         width: 0;  /* Remove scrollbar space */
         background: transparent;  /* Optional: just make scrollbar invisible */
 }
-    /* Optional: show position indicator in red */
+/* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb{
         background: #FF0000;
 }
-
 body{
     height: 100%;
     width: 100%;
@@ -119,36 +118,35 @@ body{
     to {
       transform: rotate(359deg);
     }
-  }
-  @keyframes rotation2 {
+}
+@keyframes rotation2 {
     from {
       transform: rotate(0deg);
     }
     to {
       transform: rotate(-359deg);
     }
-  }
-
-  .contentMenu{
+}
+.contentMenu{
       display: grid;
       grid-template-rows: 95vh 80vh 25vh;
       height: 100%;
       width: 100%;
-  }
-  .headContent{
+}
+.headContent{
     grid-row-start: 1;
     background-color: rgb(32, 32, 40);
     padding: 3rem;
-  }
-  .whiteContent{
+}
+.whiteContent{
       grid-row-start: 2;
       background-color: #fff;
       padding: 3rem;
       box-shadow: 0px 0px 18px -5px #000000;
 
-  }
-  .footerContent{
+}
+.footerContent{
     grid-row-start: 3;
     background-color: rgb(12, 12, 14);
     padding: 3rem;
-  }
+}
