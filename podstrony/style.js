@@ -14,3 +14,4 @@ $(document).ready(function(){
         alert("kubakszkola123@gmail.com");
       });
 });
+//yes
