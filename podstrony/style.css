@@ -150,7 +150,7 @@ body{
 }
 .logoTextGrid{
     display: grid;
-    grid-template-columns: 2.5ex 1.5ex 3ex ;
+    grid-template-columns: 2.50ex 1.5ex 3ex ;
     grid-template-rows: 1em 1em ;
     grid-column-start: 2;
 }
