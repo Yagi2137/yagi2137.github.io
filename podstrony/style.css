@@ -12,6 +12,10 @@
     background-color: rgb(12, 12, 14);
     background-color: rgb(133, 133, 142);
 }
+@font-face {
+    font-family: social;
+    src: url(../fonts/social.otf);
+}
 html, body {
 
     background-color:#202028 ;
@@ -44,7 +48,7 @@ body{
 }
 .textFont{
     font-family: 'Heebo', sans-serif;
-    font-size: 13px;
+    font-weight: 300;
 }
 .snap{
     /* background-color: #202028; */
@@ -140,7 +144,7 @@ body{
 }
 .navBar{
     display: grid;
-    grid-template-columns: 110px 8ex ;
+    grid-template-columns: 110px 8ex 1fr 195px;
     grid-template-rows: 2em;
 }
 .logo{
@@ -167,10 +171,53 @@ body{
     grid-row-end: 2;
 }
 .contactDiv{
+    grid-column-start: 4;
+}
+.navigation{
     grid-column-start: 3;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 300px 300px;
     align-items: center;
+    justify-items: right;
+    justify-self: right;
+    font-size: 50px;
+}
+.aboutUs{
+    grid-column-start: 1;
+    text-align: center;
+    /* margin: 0 2rem 0 0; */
+}
+.products{
+    grid-column-start: 2;
+    text-align: center;
+    margin: 0 2rem 0 0;
+}
+.contacts{
+   font-family: social;
+   z-index: 1;
+   color: white;
+   position: relative;
+   float:right;
+   display: flex;
+}
+.contactGithub{
+    padding: 1rem;
+}
+.contactEmail{
+    padding: 1rem;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
 }
 .whiteContent{
       grid-row-start: 2;
