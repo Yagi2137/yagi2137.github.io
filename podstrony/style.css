@@ -136,7 +136,35 @@ body{
 .headContent{
     grid-row-start: 1;
     background-color: rgb(32, 32, 40);
-    padding: 0 3rem 3rem 1rem;
+    padding: 1rem 3rem 3rem 1rem;
+}
+.navBar{
+    display: grid;
+    grid-template-columns: 120px  ;
+    grid-template-rows: 2em;
+}
+.logo{
+    height: 2em;
+    width: auto;
+    grid-column-start: 1;
+}
+.logoTextGrid{
+    display: grid;
+    grid-template-columns: 2.5ex 1.5ex 3ex ;
+    grid-template-rows: 1em 1em ;
+    grid-column-start: 2;
+}
+.textLion{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 1;
+}
+.textHeart{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-column-end: 3;
+    grid-row-end: 2;
 }
 .whiteContent{
       grid-row-start: 2;
