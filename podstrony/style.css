@@ -133,7 +133,7 @@ body{
 }
 .contentMenu{
       display: grid;
-      grid-template-rows: 95vh 80vh 25vh;
+      grid-template-rows: 100vh 120vh 25vh;
       height: 100%;
       width: 100%;
 }
@@ -144,8 +144,10 @@ body{
 }
 .navBar{
     display: grid;
+    background-color: rgb(32, 32, 40);
     grid-template-columns: 110px 8ex 1fr 195px;
     grid-template-rows: 2em;
+    margin-bottom: 2em;
 }
 .logo{
     height: 2em;
@@ -176,21 +178,22 @@ body{
 .navigation{
     grid-column-start: 3;
     display: grid;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 240px 240px;
     align-items: center;
     justify-items: right;
     justify-self: right;
-    font-size: 50px;
+    font-size: 40px;
 }
 .aboutUs{
     grid-column-start: 1;
     text-align: center;
-
+    z-index: 1;
 }
 .products{
     grid-column-start: 2;
     text-align: center;
     margin: 0 2rem 0 0;
+    z-index: 1;
 }
 .contacts{
    font-family: social;
@@ -219,11 +222,29 @@ a:visited{
     text-decoration: none;
     color: white;
 }
+
 .whiteContent{
       grid-row-start: 2;
       background-color: #fff;
       padding: 3rem;
       box-shadow: 0px 0px 18px -5px #000000;
+
+}
+.abtUsText{
+    padding: 3em;
+}
+.mainText{
+    color: rgb(255, 149, 122);
+}
+.subText{
+    color: rgb(12, 12, 14);
+    font-size: 20px;
+}
+.productList{
+    padding: 3em;
+}
+.productText{
+    color: rgb(255, 149, 122);
 
 }
 .footerContent{
