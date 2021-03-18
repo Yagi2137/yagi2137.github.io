@@ -300,16 +300,19 @@ iframe{
     grid-column-start: 1;
     grid-row-start: 2;
     padding: 0 1em 1em 1em;
+    font-size: 1vw;
 }
 .songB{
     grid-column-start: 2;
     grid-row-start: 2;
     padding: 0 1em 1em 1em;
+    font-size: 1vw;
 }
 .songC{
     grid-column-start: 3;
     grid-row-start: 2;
     padding: 0 1em 1em 1em;
+    font-size: 1vw;
 }
 .footerContent{
     grid-row-start: 3;
