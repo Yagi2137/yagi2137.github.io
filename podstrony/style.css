@@ -151,7 +151,7 @@ body{
 }
 .eyeCatcher{
     height: 80vh;
-    width: auto;
+    width: 100vw;
     position: absolute;
     text-align: center;
     padding-left: 2em;
