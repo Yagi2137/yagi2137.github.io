@@ -133,7 +133,7 @@ body{
 }
 .contentMenu{
       display: grid;
-      grid-template-rows: 100vh 120vh 10vh;
+      grid-template-rows: 100vh 150vh 10vh;
       height: 100%;
       width: 100%;
 }
@@ -300,19 +300,19 @@ iframe{
     grid-column-start: 1;
     grid-row-start: 2;
     padding: 0 1em 1em 1em;
-    font-size: 1.25vw;
+    /* font-size: 1.25vw; */
 }
 .songB{
     grid-column-start: 2;
     grid-row-start: 2;
     padding: 0 1em 1em 1em;
-    font-size: 1.25vw;
+    /* font-size: 1.25vw; */
 }
 .songC{
     grid-column-start: 3;
     grid-row-start: 2;
     padding: 0 1em 1em 1em;
-    font-size: 1.25vw;
+    /* font-size: 1.25vw; */
 }
 .footerContent{
     grid-row-start: 3;
