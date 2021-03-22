@@ -20,7 +20,6 @@ function move() {
       }
     }
   }
-  window.close();
 }
 $(document).ready(function(){
     var alert = $("#alert")[0];
