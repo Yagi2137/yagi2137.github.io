@@ -20,4 +20,13 @@ function move() {
       }
     }
   }
+  window.close();
 }
+$(document).ready(function(){
+    var alert = $("#alert")[0];
+    $(".button")
+        .click(function() {
+        $(".alert").fadeIn(100);
+        alert.play();
+        });
+});
