@@ -33,7 +33,7 @@ html, body{
     position: absolute;
     display: grid;
     grid-template-rows: 70px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 24% 28% 24% 24%;
 }
 .link1{
     display: flex;
@@ -48,6 +48,9 @@ html, body{
     justify-content: center;
     height: 70px;
     grid-column-start: 2;
+    color: #F1FAEE;
+    font-family: cafe;
+    font-size: 25px;
 }
 .link3{
     display: flex;
