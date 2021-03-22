@@ -5,7 +5,6 @@ const w=canvas.width=document.body.offsetWidth;
 const h=canvas.height=document.body.offsetHeight;
 const cols=Math.floor(w/20)+1;
 const ypos=Array(cols).fill(0);
-document.getElementById("now").textContent=new Date().toLocaleString();
 ctx.fillStyle='#000';
 ctx.fillRect(0,0,w,h);
 function matrix(){
