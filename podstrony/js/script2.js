@@ -14,17 +14,19 @@ function move() {
       } else {
         width++;
         elem.style.width = width + "%";
-        elem.innerHTML = width  + "%";
+        elem.innerHTML ="Launching PC Killer: ‎" +  width  + "%";
         docu.style.cursor = "wait";
         button.style.cursor = "wait";
       }
     }
   }
+  alert('PcKiller successfully installed');
 }
 $(document).ready(function(){
     var alert = $("#alert")[0];
     $(".button")
         .click(function() {
+        $(".myProgress").show();
         $(".alert").fadeIn(100);
         alert.play();
         });
