@@ -29,3 +29,7 @@ body{
     transform: translate(-50%,-50%);
     z-index: 1;
 }
+::-webkit-scrollbar{
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
