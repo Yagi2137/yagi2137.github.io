@@ -5,6 +5,8 @@ html, body{
     height: 100vh;
     width: 100vw;
     font-family: 'Roboto Mono', monospace;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 a{
     text-decoration: none;

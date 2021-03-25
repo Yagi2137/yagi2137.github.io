@@ -8,6 +8,8 @@ body{
     background-color: #111111;
     background-image: url(https://cdn.wallpapersafari.com/12/46/GhFSJ6.jpg);
     background-repeat: no-repeat;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 
 }
 .powerGlove{
