@@ -12,3 +12,10 @@ function showHack(){
     console.log('hackTime');
 }
 })
+$(document).ready(function(){
+    $(".answerYes").click(function() {
+        $(".movie").fadeIn();
+        $(".timeHack").hide();
+        audio.pause();
+        });
+});
