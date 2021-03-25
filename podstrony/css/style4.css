@@ -46,7 +46,7 @@ body{
     transform: translate(-50%,-50%);
     display:none;
 }
-.movie video{
+.movie iframe{
     height: 90vh;
     width: 90vw;
 }
