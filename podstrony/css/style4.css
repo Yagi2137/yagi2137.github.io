@@ -1,0 +1,77 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    background-color: #111111;
+    background-image: url(https://cdn.wallpapersafari.com/12/46/GhFSJ6.jpg);
+    background-repeat: no-repeat;
+
+}
+.powerGlove{
+    position: static;
+    top: 50%;
+    left: 50%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.powerGlove img{
+    height: 100%;
+    width: auto;
+}
+.timeHack{
+    position: absolute;
+    z-index: 3;
+    background-color: blue;
+    color: white;
+    font-family: arcade;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    border: 2px solid white;
+    padding:2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.alert{
+ grid-column-start: 1;
+ grid-column-end: 3;
+}
+.answerYes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.answerNo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boop{
+    animation: move 1s infinite;
+}
+
+@keyframes move {
+  20%, 100% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+}
+
+
+@font-face {
+    font-family: arcade;
+    src: url(../../fonts/arcade.ttf);
+}
