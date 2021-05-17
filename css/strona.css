@@ -115,7 +115,8 @@ html, body{
 .listcn{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
+    padding-left: 10px;
 }
 .content{
     height: 100%;
