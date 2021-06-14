@@ -1,0 +1,244 @@
+
+@media (max-width: 800px)  {
+	html{
+		margin: 0;
+		padding: 0;
+		min-height: 100vh;
+		max-width: 100vw;
+	}
+	body{
+		margin: 0;
+		padding: 0;
+		height: 100vh;
+		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+	}
+	a, a:hover, a:visited{
+		text-decoration: underline;
+		color: unset;
+	}
+	h1, h2, h3, p{
+		margin:0;
+		padding:0;
+	} 
+	
+	.page-wrapper{
+		font-size: 2.5vh;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.page-wrapper p, .page-wrapper h1, .page-wrapper h2, .page-wrapper h3{
+		padding: 1em;
+	}
+	.intro{
+		align-self:flex-start;
+		position: relative;
+		opacity: 1;
+		z-index: -1;
+	}
+	header{
+		height:30vh;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		text-shadow: .125em .125em .25em rgba(245, 245, 245, 0.7);
+		margin:0;
+		padding:0;
+	}
+	header::after{
+		content: ' ';
+		width: 100%;
+		height: 30vh;
+		background-image: url(https://swiat-kolorow.com.pl/userdata/public/gfx/228557/Fototapeta-na-flizelinie-MS-5-0117-ZEN-GARDEN.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		opacity: 0.8;
+		position: absolute;
+		top:0;
+		left:0;
+		z-index: -1;
+	}
+	header h1{
+		font-size: 4.8vh;
+		text-align: center;
+		align-self: flex-start;
+		margin:0;
+		padding:0;
+	}
+	header h2{
+		font-size: 4vh;
+		text-align: center;
+		align-self: flex-end;
+		margin:0;
+		padding:0;
+	}
+	.intro div{
+		background-color: transparent;
+		position: relative;
+		display: grid;
+		place-items: center;
+	}
+	.summary{
+		height: 30vh;
+		display: grid;
+		place-content: center;
+	}
+	.summary p, .preamble p{
+		font-size: 2vh;
+		font-weight: 700;
+		width: 70%;
+	}
+	.preamble{
+		height: 65vh;
+		display: grid;
+		place-content: center;
+		position: relative;
+	}
+	.preamble:nth-child(3){
+		padding-top: 5vh;
+	}
+	
+	.preamble h3{
+		position: absolute;
+		top: 7%;
+		font-size: 2.8vh;
+	}
+	.intro div::before{
+		content:'';
+		background-color: rgb(180, 168, 145);
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		opacity: 1;
+		z-index: -2;
+	}
+	.intro div::after{
+		content:'';
+		background-color: #fff;
+		width: 80%;
+		height: 90%;
+		position: absolute;
+		z-index: -1;
+		top:0;
+		left:50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		border-radius: .2em;
+	}
+	.main{
+		background-color: rgb(180, 168, 145);
+	}
+	.explanation{
+		background-color: rgb(255, 254, 202);
+		box-shadow: 0 0 .2em .1em rgb(148, 130, 95);
+	}
+	.participation{
+	
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		height: 90vh;
+	}
+	.participation p{
+		z-index: 1;
+		font-size: 2vh;
+		font-weight: 700;
+		width: 70%;
+		padding: 0;
+	}
+	.participation p:first-of-type{
+		padding-top: 9vh;
+	}
+	.participation h3{
+		position: absolute;
+		top: 0;
+		left: 50%;
+		font-size: 3vh;
+		z-index: 1;	
+		transform: translate(-50%, 0%);
+	}
+	
+	.participation::after{
+		content:'';
+		background-color: #fff;
+		width: 80%;
+		height: 95%;
+		position: absolute;
+		top:0;
+		left:50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		border-radius: .2em;
+	}
+	.benefits{
+		background-color: rgb(250, 209, 255);
+		box-shadow:0 0 .2em .1em rgb(148, 130, 95);
+	}
+	.requirements{
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		height: 155vh;
+	}
+	.requirements p{
+		z-index: 1;
+		font-size: 2vh;
+		font-weight: 700;
+		width: 70%;
+		padding: 0;
+		margin: 0;
+	}
+	.requirements p:first-of-type{
+		padding-top: 15vh;
+	}
+	.requirements h3{
+		position: absolute;
+		top: 3%;
+		left: 50%;
+		font-size: 3vh;
+		z-index: 1;	
+		transform: translate(-50%, -3%);
+	}
+	
+	.requirements::after{
+		content:'';
+		background-color: #fff;
+		width: 80%;
+		height: 95%;
+		position: absolute;
+		top:0;
+		left:50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		border-radius: .2em;
+	}
+	footer{
+		background-color: rgba(0,0,0,1);
+		color: white;
+		align-self:flex-end;
+		height: 5vh;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		
+	}
+	.extra1{
+		display: block;
+		position: fixed;
+		background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: .5em;
+		opacity:0.8;
+		top:0.1%;
+		right:0.1%;
+		height: 4.7vh;
+		width: 4.7vh;
+		background-color: #fff;
+		z-index: 10;
+	}
+	.sidebar{
+		display: none;
+	}
+}
