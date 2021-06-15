@@ -224,7 +224,6 @@
 		
 	}
 	.extra1{
-		display: block;
 		position: fixed;
 		background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png);
 		background-repeat: no-repeat;
@@ -238,10 +237,18 @@
 		background-color: #fff;
 		z-index: 10;
 	}
-	.extra1:active{
-		background-color: red;
-	}
 	.sidebar{
 		display: none;
+		position: fixed;
+		background-color: white;
+		top:0.1%;
+		right:0.1%;
+		z-index: 9;
+		height: 100%;
+		width:80vw;
+		font-size: 2vh;
+		box-shadow: -3px 0 6em 5em white;
+		display: grid;
+		place-items: center;
 	}
 }

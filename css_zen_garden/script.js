@@ -1,3 +1,5 @@
-const x = document.getElementsByClassName("extra1")
-const y = x.getPropertyValue('red')
-if ()
+$(document).ready(function(){
+    $(".extra1").click(function(){
+      $(".sidebar").fadeToggle(100);
+    });
+  });
